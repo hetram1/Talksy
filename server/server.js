@@ -2,7 +2,7 @@
 import "dotenv/config";
 import cors from "cors";
 import http from "http";
-// import { connectDB } from './lib/db.js';
+import { connectDB } from './lib/db.js';
 // import userRouter from './routes/userRoutes.js';
 // import messageRouter from './routes/messageRoutes.js';
 import { Server } from 'socket.io';
@@ -48,7 +48,7 @@ app.use("/api/status", (req, res)=> res.send("Server is live"));
 
 
 // Connect to MongoDB
-// await connectDB();
+await connectDB();
 
 const PORT = process.env.PORT || 4000;
 server.listen(PORT, ()=> console.log("Server is running on PORT: " + PORT));
