@@ -4,7 +4,7 @@ import cors from "cors";
 import http from "http";
 import { connectDB } from './lib/db.js';
 import userRouter from './routes/userRoutes.js';
-// import messageRouter from './routes/messageRoutes.js';
+import messageRouter from './routes/messageRoutes.js';
 import { Server } from 'socket.io';
 
 // Create Express app and http server
@@ -44,7 +44,7 @@ app.use(cors());
 // Routes setup
 app.use("/api/status", (req, res)=> res.send("Server is live"));
 app.use("/api/auth", userRouter)
-// app.use("/api/messages", messageRouter)
+app.use("/api/messages", messageRouter)
 
 
 // Connect to MongoDB
