@@ -121,16 +121,16 @@ Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your 
 
 ### Sign Up Page
 
-![Sign Up Page](client/src/assets/Screenshot (1).png)
+![Sign Up Page](client/src/assets/Screenshot1.png)
 
 ### Profile Page
 
-![Profile Page](client/src/assets/Screenshot (3).png)
+![Profile Page](client/src/assets/Screenshot3.png)
 
 
 ### Chat Interface
 
-![Chat Interface](client/src/assets/Screenshot (2).png)
+![Chat Interface](client/src/assets/Screenshot2.png)
 
 
 ---
