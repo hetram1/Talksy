@@ -3,6 +3,8 @@ import gallery_icon from './gallery_icon.svg'
 import help_icon from './help_icon.png'
 import logo_icon from './logo_icon.svg'
 import logo_big from './logo_big.svg'
+import logo_big1 from './logo_big1.png'
+import logo_big2 from './logo_big2.png'
 import logo from './logo.png'
 import logo1 from './logo1.png'
 import profile_richard from './profile_richard.png'
@@ -28,6 +30,8 @@ const assets = {
     gallery_icon,
     help_icon,
     logo_big,
+    logo_big1,
+    logo_big2,
     logo_icon,
     logo,
     logo1,
