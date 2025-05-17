@@ -121,21 +121,15 @@ Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your 
 
 ### Sign Up Page
 
-![Sign Up Page](../screenshots/signup.png)
+![Sign Up Page](src/assets/Screenshot(3).png)
 
 ### Profile Page
 
-![Profile Page](../screenshots/profile.png)
+![Profile Page](src/assets/Screenshot(2).png)
 
 ### Chat Interface
 
-![Chat Interface](../screenshots/chat.png)
-
-> _Place your screenshots in a `screenshots` folder at the root or adjust the paths as needed._
-
-## License
-
-This project is licensed under the MIT License.
+![Chat Interface](src/assets/Screenshot(1).png)
 
 ---
 
